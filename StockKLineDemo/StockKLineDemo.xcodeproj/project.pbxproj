@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		599AA6541E767848002EF269 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6531E767848002EF269 /* main.m */; };
+		599AA6571E767848002EF269 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6561E767848002EF269 /* AppDelegate.m */; };
+		599AA65F1E767848002EF269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 599AA65E1E767848002EF269 /* Assets.xcassets */; };
+		599AA6621E767848002EF269 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 599AA6601E767848002EF269 /* LaunchScreen.storyboard */; };
+		599AA6741E7679B4002EF269 /* UIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6731E7679B4002EF269 /* UIColor+RGB.m */; };
+		599AA6791E767D91002EF269 /* DZHDrawingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6781E767D91002EF269 /* DZHDrawingUtil.m */; };
+		599AA67D1E7682BF002EF269 /* DZHColorDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA67C1E7682BF002EF269 /* DZHColorDataProvider.m */; };
+		599AA6801E7682CB002EF269 /* DZHDataProviderContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA67F1E7682CB002EF269 /* DZHDataProviderContext.m */; };
+		599AA6831E7682D4002EF269 /* DZHKLineTypeStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6821E7682D4002EF269 /* DZHKLineTypeStrategy.m */; };
+		599AA6861E7682DD002EF269 /* DZHVolumeTypeStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6851E7682DD002EF269 /* DZHVolumeTypeStrategy.m */; };
+		599AA6891E768352002EF269 /* DZHKLineDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6881E768352002EF269 /* DZHKLineDateFormatter.m */; };
+		599AA68C1E7683B5002EF269 /* DZHDataProviderBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA68B1E7683B5002EF269 /* DZHDataProviderBase.m */; };
+		599AA68F1E7683BF002EF269 /* DZHBIASDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA68E1E7683BF002EF269 /* DZHBIASDataProvider.m */; };
+		599AA6921E7683C8002EF269 /* DZHBOLLDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6911E7683C8002EF269 /* DZHBOLLDataProvider.m */; };
+		599AA6951E7683D4002EF269 /* DZHCCIDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6941E7683D4002EF269 /* DZHCCIDataProvider.m */; };
+		599AA6981E76841D002EF269 /* DZHDMADataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6971E76841D002EF269 /* DZHDMADataProvider.m */; };
+		599AA69B1E768427002EF269 /* DZHKDJDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA69A1E768427002EF269 /* DZHKDJDataProvider.m */; };
+		599AA69E1E768432002EF269 /* DZHKLineDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA69D1E768432002EF269 /* DZHKLineDataProvider.m */; };
+		599AA6A11E76843E002EF269 /* DZHMACDDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6A01E76843E002EF269 /* DZHMACDDataProvider.m */; };
+		599AA6A41E768449002EF269 /* DZHRSIDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6A31E768449002EF269 /* DZHRSIDataProvider.m */; };
+		599AA6A71E768454002EF269 /* DZHVolumeDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6A61E768454002EF269 /* DZHVolumeDataProvider.m */; };
+		599AA6AA1E76845D002EF269 /* DZHWRDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6A91E76845D002EF269 /* DZHWRDataProvider.m */; };
+		599AA6B51E7685FC002EF269 /* DZHKLineEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6B41E7685FC002EF269 /* DZHKLineEntity.m */; };
+		599AA6B81E768607002EF269 /* DZHDrawingItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6B71E768607002EF269 /* DZHDrawingItemModel.m */; };
+		599AA6BB1E768611002EF269 /* DZHAxisItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6BA1E768611002EF269 /* DZHAxisItem.m */; };
+		599AA6BE1E76861B002EF269 /* DZHCurveItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6BD1E76861B002EF269 /* DZHCurveItem.m */; };
+		599AA6C01E7686C6002EF269 /* klines.data in Resources */ = {isa = PBXBuildFile; fileRef = 599AA6BF1E7686C6002EF269 /* klines.data */; };
+		599AA6C31E7686F3002EF269 /* DZHKLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6C21E7686F3002EF269 /* DZHKLineViewController.m */; };
+		599AA6C71E76879A002EF269 /* DZHKLineDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6C61E76879A002EF269 /* DZHKLineDataSource.m */; };
+		599AA6CA1E7687D7002EF269 /* DZHContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6C91E7687D7002EF269 /* DZHContainer.m */; };
+		599AA6CD1E768803002EF269 /* DZHScrollContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6CC1E768803002EF269 /* DZHScrollContainer.m */; };
+		599AA6D01E768834002EF269 /* DZHKLineContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6CF1E768834002EF269 /* DZHKLineContainer.m */; };
+		599AA6D31E76888A002EF269 /* DZHDrawingBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6D21E76888A002EF269 /* DZHDrawingBase.m */; };
+		599AA6D61E768896002EF269 /* DZHAxisDrawingBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6D51E768896002EF269 /* DZHAxisDrawingBase.m */; };
+		599AA6D91E76889F002EF269 /* DZHAxisXDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6D81E76889F002EF269 /* DZHAxisXDrawing.m */; };
+		599AA6DC1E7688A8002EF269 /* DZHAxisYDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6DB1E7688A8002EF269 /* DZHAxisYDrawing.m */; };
+		599AA6DF1E7688B2002EF269 /* DZHKLineDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6DE1E7688B2002EF269 /* DZHKLineDrawing.m */; };
+		599AA6E21E76894D002EF269 /* DZHRectangleDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6E11E76894D002EF269 /* DZHRectangleDrawing.m */; };
+		599AA6E51E768955002EF269 /* DZHFillBarDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6E41E768955002EF269 /* DZHFillBarDrawing.m */; };
+		599AA6E81E76895E002EF269 /* DZHCurveDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6E71E76895E002EF269 /* DZHCurveDrawing.m */; };
+		599AA6EB1E768967002EF269 /* DZHOHLCDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6EA1E768967002EF269 /* DZHOHLCDrawing.m */; };
+		599AA6EE1E768973002EF269 /* DZHGradientDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6ED1E768973002EF269 /* DZHGradientDrawing.m */; };
+		599AA6F11E76897F002EF269 /* DZHEdgeTextDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6F01E76897F002EF269 /* DZHEdgeTextDrawing.m */; };
+		599AA6F41E768CCE002EF269 /* DZHBIASCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6F31E768CCE002EF269 /* DZHBIASCalculator.m */; };
+		599AA6F71E768CD7002EF269 /* DZHBOLLCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6F61E768CD7002EF269 /* DZHBOLLCalculator.m */; };
+		599AA6FA1E768CDF002EF269 /* DZHCalculatorBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6F91E768CDF002EF269 /* DZHCalculatorBase.m */; };
+		599AA6FD1E768CE9002EF269 /* DZHCCICalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6FC1E768CE9002EF269 /* DZHCCICalculator.m */; };
+		599AA7001E768CF1002EF269 /* DZHDMACalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA6FF1E768CF1002EF269 /* DZHDMACalculator.m */; };
+		599AA7031E768CFA002EF269 /* DZHKDJCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA7021E768CFA002EF269 /* DZHKDJCalculator.m */; };
+		599AA7061E768D05002EF269 /* DZHMACalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA7051E768D05002EF269 /* DZHMACalculator.m */; };
+		599AA7091E768D0F002EF269 /* DZHMACDCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA7081E768D0F002EF269 /* DZHMACDCalculator.m */; };
+		599AA70C1E768D44002EF269 /* DZHRSICalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA70B1E768D44002EF269 /* DZHRSICalculator.m */; };
+		599AA70F1E768D4C002EF269 /* DZHVolumeMACalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA70E1E768D4C002EF269 /* DZHVolumeMACalculator.m */; };
+		599AA7121E768D57002EF269 /* DZHWRCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AA7111E768D57002EF269 /* DZHWRCalculator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		599AA64F1E767848002EF269 /* StockKLineDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockKLineDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		599AA6531E767848002EF269 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		599AA6551E767848002EF269 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		599AA6561E767848002EF269 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		599AA65E1E767848002EF269 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		599AA6611E767848002EF269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		599AA6631E767848002EF269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		599AA6721E7679B4002EF269 /* UIColor+RGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RGB.h"; sourceTree = "<group>"; };
+		599AA6731E7679B4002EF269 /* UIColor+RGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGB.m"; sourceTree = "<group>"; };
+		599AA6751E767D00002EF269 /* StockKLineDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StockKLineDemo.pch; sourceTree = "<group>"; };
+		599AA6761E767D65002EF269 /* DZHDrawingDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZHDrawingDefine.h; sourceTree = "<group>"; };
+		599AA6771E767D91002EF269 /* DZHDrawingUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHDrawingUtil.h; sourceTree = "<group>"; };
+		599AA6781E767D91002EF269 /* DZHDrawingUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHDrawingUtil.m; sourceTree = "<group>"; };
+		599AA67B1E7682BF002EF269 /* DZHColorDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHColorDataProvider.h; sourceTree = "<group>"; };
+		599AA67C1E7682BF002EF269 /* DZHColorDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHColorDataProvider.m; sourceTree = "<group>"; };
+		599AA67E1E7682CB002EF269 /* DZHDataProviderContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHDataProviderContext.h; sourceTree = "<group>"; };
+		599AA67F1E7682CB002EF269 /* DZHDataProviderContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHDataProviderContext.m; sourceTree = "<group>"; };
+		599AA6811E7682D4002EF269 /* DZHKLineTypeStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHKLineTypeStrategy.h; sourceTree = "<group>"; };
+		599AA6821E7682D4002EF269 /* DZHKLineTypeStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHKLineTypeStrategy.m; sourceTree = "<group>"; };
+		599AA6841E7682DD002EF269 /* DZHVolumeTypeStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHVolumeTypeStrategy.h; sourceTree = "<group>"; };
+		599AA6851E7682DD002EF269 /* DZHVolumeTypeStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHVolumeTypeStrategy.m; sourceTree = "<group>"; };
+		599AA6871E768352002EF269 /* DZHKLineDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHKLineDateFormatter.h; sourceTree = "<group>"; };
+		599AA6881E768352002EF269 /* DZHKLineDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHKLineDateFormatter.m; sourceTree = "<group>"; };
+		599AA68A1E7683B5002EF269 /* DZHDataProviderBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHDataProviderBase.h; sourceTree = "<group>"; };
+		599AA68B1E7683B5002EF269 /* DZHDataProviderBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHDataProviderBase.m; sourceTree = "<group>"; };
+		599AA68D1E7683BF002EF269 /* DZHBIASDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHBIASDataProvider.h; sourceTree = "<group>"; };
+		599AA68E1E7683BF002EF269 /* DZHBIASDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHBIASDataProvider.m; sourceTree = "<group>"; };
+		599AA6901E7683C8002EF269 /* DZHBOLLDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHBOLLDataProvider.h; sourceTree = "<group>"; };
+		599AA6911E7683C8002EF269 /* DZHBOLLDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHBOLLDataProvider.m; sourceTree = "<group>"; };
+		599AA6931E7683D4002EF269 /* DZHCCIDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHCCIDataProvider.h; sourceTree = "<group>"; };
+		599AA6941E7683D4002EF269 /* DZHCCIDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHCCIDataProvider.m; sourceTree = "<group>"; };
+		599AA6961E76841D002EF269 /* DZHDMADataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHDMADataProvider.h; sourceTree = "<group>"; };
+		599AA6971E76841D002EF269 /* DZHDMADataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHDMADataProvider.m; sourceTree = "<group>"; };
+		599AA6991E768427002EF269 /* DZHKDJDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHKDJDataProvider.h; sourceTree = "<group>"; };
+		599AA69A1E768427002EF269 /* DZHKDJDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHKDJDataProvider.m; sourceTree = "<group>"; };
+		599AA69C1E768432002EF269 /* DZHKLineDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHKLineDataProvider.h; sourceTree = "<group>"; };
+		599AA69D1E768432002EF269 /* DZHKLineDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHKLineDataProvider.m; sourceTree = "<group>"; };
+		599AA69F1E76843E002EF269 /* DZHMACDDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHMACDDataProvider.h; sourceTree = "<group>"; };
+		599AA6A01E76843E002EF269 /* DZHMACDDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHMACDDataProvider.m; sourceTree = "<group>"; };
+		599AA6A21E768449002EF269 /* DZHRSIDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHRSIDataProvider.h; sourceTree = "<group>"; };
+		599AA6A31E768449002EF269 /* DZHRSIDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHRSIDataProvider.m; sourceTree = "<group>"; };
+		599AA6A51E768454002EF269 /* DZHVolumeDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHVolumeDataProvider.h; sourceTree = "<group>"; };
+		599AA6A61E768454002EF269 /* DZHVolumeDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHVolumeDataProvider.m; sourceTree = "<group>"; };
+		599AA6A81E76845D002EF269 /* DZHWRDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHWRDataProvider.h; sourceTree = "<group>"; };
+		599AA6A91E76845D002EF269 /* DZHWRDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHWRDataProvider.m; sourceTree = "<group>"; };
+		599AA6AB1E7684AB002EF269 /* DZHDrawing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZHDrawing.h; sourceTree = "<group>"; };
+		599AA6AC1E7684C4002EF269 /* DZHDrawingContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZHDrawingContainer.h; sourceTree = "<group>"; };
+		599AA6AD1E768509002EF269 /* DZHDataTraveler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZHDataTraveler.h; sourceTree = "<group>"; };
+		599AA6AF1E768552002EF269 /* DZHDrawingItems.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZHDrawingItems.h; sourceTree = "<group>"; };
+		599AA6B11E76856A002EF269 /* DZHDataProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZHDataProvider.h; sourceTree = "<group>"; };
+		599AA6B21E768574002EF269 /* DZHIndexCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZHIndexCalculator.h; sourceTree = "<group>"; };
+		599AA6B31E7685FC002EF269 /* DZHKLineEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHKLineEntity.h; sourceTree = "<group>"; };
+		599AA6B41E7685FC002EF269 /* DZHKLineEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHKLineEntity.m; sourceTree = "<group>"; };
+		599AA6B61E768607002EF269 /* DZHDrawingItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHDrawingItemModel.h; sourceTree = "<group>"; };
+		599AA6B71E768607002EF269 /* DZHDrawingItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHDrawingItemModel.m; sourceTree = "<group>"; };
+		599AA6B91E768611002EF269 /* DZHAxisItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHAxisItem.h; sourceTree = "<group>"; };
+		599AA6BA1E768611002EF269 /* DZHAxisItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHAxisItem.m; sourceTree = "<group>"; };
+		599AA6BC1E76861B002EF269 /* DZHCurveItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHCurveItem.h; sourceTree = "<group>"; };
+		599AA6BD1E76861B002EF269 /* DZHCurveItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHCurveItem.m; sourceTree = "<group>"; };
+		599AA6BF1E7686C6002EF269 /* klines.data */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = klines.data; sourceTree = "<group>"; };
+		599AA6C11E7686F3002EF269 /* DZHKLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHKLineViewController.h; sourceTree = "<group>"; };
+		599AA6C21E7686F3002EF269 /* DZHKLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHKLineViewController.m; sourceTree = "<group>"; };
+		599AA6C51E76879A002EF269 /* DZHKLineDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHKLineDataSource.h; sourceTree = "<group>"; };
+		599AA6C61E76879A002EF269 /* DZHKLineDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHKLineDataSource.m; sourceTree = "<group>"; };
+		599AA6C81E7687D7002EF269 /* DZHContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHContainer.h; sourceTree = "<group>"; };
+		599AA6C91E7687D7002EF269 /* DZHContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHContainer.m; sourceTree = "<group>"; };
+		599AA6CB1E768803002EF269 /* DZHScrollContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHScrollContainer.h; sourceTree = "<group>"; };
+		599AA6CC1E768803002EF269 /* DZHScrollContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHScrollContainer.m; sourceTree = "<group>"; };
+		599AA6CE1E768834002EF269 /* DZHKLineContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHKLineContainer.h; sourceTree = "<group>"; };
+		599AA6CF1E768834002EF269 /* DZHKLineContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHKLineContainer.m; sourceTree = "<group>"; };
+		599AA6D11E76888A002EF269 /* DZHDrawingBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHDrawingBase.h; sourceTree = "<group>"; };
+		599AA6D21E76888A002EF269 /* DZHDrawingBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHDrawingBase.m; sourceTree = "<group>"; };
+		599AA6D41E768896002EF269 /* DZHAxisDrawingBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHAxisDrawingBase.h; sourceTree = "<group>"; };
+		599AA6D51E768896002EF269 /* DZHAxisDrawingBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHAxisDrawingBase.m; sourceTree = "<group>"; };
+		599AA6D71E76889F002EF269 /* DZHAxisXDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHAxisXDrawing.h; sourceTree = "<group>"; };
+		599AA6D81E76889F002EF269 /* DZHAxisXDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHAxisXDrawing.m; sourceTree = "<group>"; };
+		599AA6DA1E7688A8002EF269 /* DZHAxisYDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHAxisYDrawing.h; sourceTree = "<group>"; };
+		599AA6DB1E7688A8002EF269 /* DZHAxisYDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHAxisYDrawing.m; sourceTree = "<group>"; };
+		599AA6DD1E7688B2002EF269 /* DZHKLineDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHKLineDrawing.h; sourceTree = "<group>"; };
+		599AA6DE1E7688B2002EF269 /* DZHKLineDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHKLineDrawing.m; sourceTree = "<group>"; };
+		599AA6E01E76894D002EF269 /* DZHRectangleDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHRectangleDrawing.h; sourceTree = "<group>"; };
+		599AA6E11E76894D002EF269 /* DZHRectangleDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHRectangleDrawing.m; sourceTree = "<group>"; };
+		599AA6E31E768955002EF269 /* DZHFillBarDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHFillBarDrawing.h; sourceTree = "<group>"; };
+		599AA6E41E768955002EF269 /* DZHFillBarDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHFillBarDrawing.m; sourceTree = "<group>"; };
+		599AA6E61E76895E002EF269 /* DZHCurveDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHCurveDrawing.h; sourceTree = "<group>"; };
+		599AA6E71E76895E002EF269 /* DZHCurveDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHCurveDrawing.m; sourceTree = "<group>"; };
+		599AA6E91E768967002EF269 /* DZHOHLCDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHOHLCDrawing.h; sourceTree = "<group>"; };
+		599AA6EA1E768967002EF269 /* DZHOHLCDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHOHLCDrawing.m; sourceTree = "<group>"; };
+		599AA6EC1E768973002EF269 /* DZHGradientDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHGradientDrawing.h; sourceTree = "<group>"; };
+		599AA6ED1E768973002EF269 /* DZHGradientDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHGradientDrawing.m; sourceTree = "<group>"; };
+		599AA6EF1E76897F002EF269 /* DZHEdgeTextDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHEdgeTextDrawing.h; sourceTree = "<group>"; };
+		599AA6F01E76897F002EF269 /* DZHEdgeTextDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHEdgeTextDrawing.m; sourceTree = "<group>"; };
+		599AA6F21E768CCE002EF269 /* DZHBIASCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHBIASCalculator.h; sourceTree = "<group>"; };
+		599AA6F31E768CCE002EF269 /* DZHBIASCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHBIASCalculator.m; sourceTree = "<group>"; };
+		599AA6F51E768CD7002EF269 /* DZHBOLLCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHBOLLCalculator.h; sourceTree = "<group>"; };
+		599AA6F61E768CD7002EF269 /* DZHBOLLCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHBOLLCalculator.m; sourceTree = "<group>"; };
+		599AA6F81E768CDF002EF269 /* DZHCalculatorBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHCalculatorBase.h; sourceTree = "<group>"; };
+		599AA6F91E768CDF002EF269 /* DZHCalculatorBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHCalculatorBase.m; sourceTree = "<group>"; };
+		599AA6FB1E768CE9002EF269 /* DZHCCICalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHCCICalculator.h; sourceTree = "<group>"; };
+		599AA6FC1E768CE9002EF269 /* DZHCCICalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHCCICalculator.m; sourceTree = "<group>"; };
+		599AA6FE1E768CF1002EF269 /* DZHDMACalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHDMACalculator.h; sourceTree = "<group>"; };
+		599AA6FF1E768CF1002EF269 /* DZHDMACalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHDMACalculator.m; sourceTree = "<group>"; };
+		599AA7011E768CFA002EF269 /* DZHKDJCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHKDJCalculator.h; sourceTree = "<group>"; };
+		599AA7021E768CFA002EF269 /* DZHKDJCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHKDJCalculator.m; sourceTree = "<group>"; };
+		599AA7041E768D05002EF269 /* DZHMACalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHMACalculator.h; sourceTree = "<group>"; };
+		599AA7051E768D05002EF269 /* DZHMACalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHMACalculator.m; sourceTree = "<group>"; };
+		599AA7071E768D0F002EF269 /* DZHMACDCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHMACDCalculator.h; sourceTree = "<group>"; };
+		599AA7081E768D0F002EF269 /* DZHMACDCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHMACDCalculator.m; sourceTree = "<group>"; };
+		599AA70A1E768D44002EF269 /* DZHRSICalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHRSICalculator.h; sourceTree = "<group>"; };
+		599AA70B1E768D44002EF269 /* DZHRSICalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHRSICalculator.m; sourceTree = "<group>"; };
+		599AA70D1E768D4C002EF269 /* DZHVolumeMACalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHVolumeMACalculator.h; sourceTree = "<group>"; };
+		599AA70E1E768D4C002EF269 /* DZHVolumeMACalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHVolumeMACalculator.m; sourceTree = "<group>"; };
+		599AA7101E768D57002EF269 /* DZHWRCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZHWRCalculator.h; sourceTree = "<group>"; };
+		599AA7111E768D57002EF269 /* DZHWRCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZHWRCalculator.m; sourceTree = "<group>"; };
+		599AA7131E768ED7002EF269 /* DZHDrawingModels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZHDrawingModels.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		599AA64C1E767848002EF269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		599AA6461E767848002EF269 = {
+			isa = PBXGroup;
+			children = (
+				599AA6511E767848002EF269 /* StockKLineDemo */,
+				599AA6501E767848002EF269 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		599AA6501E767848002EF269 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				599AA64F1E767848002EF269 /* StockKLineDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		599AA6511E767848002EF269 /* StockKLineDemo */ = {
+			isa = PBXGroup;
+			children = (
+				599AA6C41E768782002EF269 /* DataSource */,
+				599AA6691E76795B002EF269 /* Addition */,
+				599AA66B1E76795B002EF269 /* DataFormatter */,
+				599AA66A1E76795B002EF269 /* Common */,
+				599AA67A1E767DD5002EF269 /* Other */,
+				599AA66F1E76795B002EF269 /* DrawingEntity */,
+				599AA6701E76795B002EF269 /* DrawingProtocol */,
+				599AA66E1E76795B002EF269 /* DrawingDataProvider */,
+				599AA66C1E76795B002EF269 /* Drawing */,
+				599AA66D1E76795B002EF269 /* DrawingContainer */,
+				599AA6711E76795B002EF269 /* TecIndexesCalculator */,
+				599AA6551E767848002EF269 /* AppDelegate.h */,
+				599AA6561E767848002EF269 /* AppDelegate.m */,
+				599AA6C11E7686F3002EF269 /* DZHKLineViewController.h */,
+				599AA6C21E7686F3002EF269 /* DZHKLineViewController.m */,
+				599AA65E1E767848002EF269 /* Assets.xcassets */,
+				599AA6601E767848002EF269 /* LaunchScreen.storyboard */,
+				599AA6631E767848002EF269 /* Info.plist */,
+				599AA6521E767848002EF269 /* Supporting Files */,
+			);
+			path = StockKLineDemo;
+			sourceTree = "<group>";
+		};
+		599AA6521E767848002EF269 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				599AA6531E767848002EF269 /* main.m */,
+				599AA6BF1E7686C6002EF269 /* klines.data */,
+				599AA6751E767D00002EF269 /* StockKLineDemo.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		599AA6691E76795B002EF269 /* Addition */ = {
+			isa = PBXGroup;
+			children = (
+				599AA6721E7679B4002EF269 /* UIColor+RGB.h */,
+				599AA6731E7679B4002EF269 /* UIColor+RGB.m */,
+			);
+			path = Addition;
+			sourceTree = "<group>";
+		};
+		599AA66A1E76795B002EF269 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				599AA6761E767D65002EF269 /* DZHDrawingDefine.h */,
+				599AA6771E767D91002EF269 /* DZHDrawingUtil.h */,
+				599AA6781E767D91002EF269 /* DZHDrawingUtil.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		599AA66B1E76795B002EF269 /* DataFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				599AA6871E768352002EF269 /* DZHKLineDateFormatter.h */,
+				599AA6881E768352002EF269 /* DZHKLineDateFormatter.m */,
+			);
+			path = DataFormatter;
+			sourceTree = "<group>";
+		};
+		599AA66C1E76795B002EF269 /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				599AA6D11E76888A002EF269 /* DZHDrawingBase.h */,
+				599AA6D21E76888A002EF269 /* DZHDrawingBase.m */,
+				599AA6D41E768896002EF269 /* DZHAxisDrawingBase.h */,
+				599AA6D51E768896002EF269 /* DZHAxisDrawingBase.m */,
+				599AA6D71E76889F002EF269 /* DZHAxisXDrawing.h */,
+				599AA6D81E76889F002EF269 /* DZHAxisXDrawing.m */,
+				599AA6DA1E7688A8002EF269 /* DZHAxisYDrawing.h */,
+				599AA6DB1E7688A8002EF269 /* DZHAxisYDrawing.m */,
+				599AA6DD1E7688B2002EF269 /* DZHKLineDrawing.h */,
+				599AA6DE1E7688B2002EF269 /* DZHKLineDrawing.m */,
+				599AA6E01E76894D002EF269 /* DZHRectangleDrawing.h */,
+				599AA6E11E76894D002EF269 /* DZHRectangleDrawing.m */,
+				599AA6E31E768955002EF269 /* DZHFillBarDrawing.h */,
+				599AA6E41E768955002EF269 /* DZHFillBarDrawing.m */,
+				599AA6E61E76895E002EF269 /* DZHCurveDrawing.h */,
+				599AA6E71E76895E002EF269 /* DZHCurveDrawing.m */,
+				599AA6E91E768967002EF269 /* DZHOHLCDrawing.h */,
+				599AA6EA1E768967002EF269 /* DZHOHLCDrawing.m */,
+				599AA6EC1E768973002EF269 /* DZHGradientDrawing.h */,
+				599AA6ED1E768973002EF269 /* DZHGradientDrawing.m */,
+				599AA6EF1E76897F002EF269 /* DZHEdgeTextDrawing.h */,
+				599AA6F01E76897F002EF269 /* DZHEdgeTextDrawing.m */,
+			);
+			path = Drawing;
+			sourceTree = "<group>";
+		};
+		599AA66D1E76795B002EF269 /* DrawingContainer */ = {
+			isa = PBXGroup;
+			children = (
+				599AA6C81E7687D7002EF269 /* DZHContainer.h */,
+				599AA6C91E7687D7002EF269 /* DZHContainer.m */,
+				599AA6CB1E768803002EF269 /* DZHScrollContainer.h */,
+				599AA6CC1E768803002EF269 /* DZHScrollContainer.m */,
+				599AA6CE1E768834002EF269 /* DZHKLineContainer.h */,
+				599AA6CF1E768834002EF269 /* DZHKLineContainer.m */,
+			);
+			path = DrawingContainer;
+			sourceTree = "<group>";
+		};
+		599AA66E1E76795B002EF269 /* DrawingDataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				599AA68A1E7683B5002EF269 /* DZHDataProviderBase.h */,
+				599AA68B1E7683B5002EF269 /* DZHDataProviderBase.m */,
+				599AA68D1E7683BF002EF269 /* DZHBIASDataProvider.h */,
+				599AA68E1E7683BF002EF269 /* DZHBIASDataProvider.m */,
+				599AA6901E7683C8002EF269 /* DZHBOLLDataProvider.h */,
+				599AA6911E7683C8002EF269 /* DZHBOLLDataProvider.m */,
+				599AA6931E7683D4002EF269 /* DZHCCIDataProvider.h */,
+				599AA6941E7683D4002EF269 /* DZHCCIDataProvider.m */,
+				599AA6961E76841D002EF269 /* DZHDMADataProvider.h */,
+				599AA6971E76841D002EF269 /* DZHDMADataProvider.m */,
+				599AA6991E768427002EF269 /* DZHKDJDataProvider.h */,
+				599AA69A1E768427002EF269 /* DZHKDJDataProvider.m */,
+				599AA69C1E768432002EF269 /* DZHKLineDataProvider.h */,
+				599AA69D1E768432002EF269 /* DZHKLineDataProvider.m */,
+				599AA69F1E76843E002EF269 /* DZHMACDDataProvider.h */,
+				599AA6A01E76843E002EF269 /* DZHMACDDataProvider.m */,
+				599AA6A21E768449002EF269 /* DZHRSIDataProvider.h */,
+				599AA6A31E768449002EF269 /* DZHRSIDataProvider.m */,
+				599AA6A51E768454002EF269 /* DZHVolumeDataProvider.h */,
+				599AA6A61E768454002EF269 /* DZHVolumeDataProvider.m */,
+				599AA6A81E76845D002EF269 /* DZHWRDataProvider.h */,
+				599AA6A91E76845D002EF269 /* DZHWRDataProvider.m */,
+			);
+			path = DrawingDataProvider;
+			sourceTree = "<group>";
+		};
+		599AA66F1E76795B002EF269 /* DrawingEntity */ = {
+			isa = PBXGroup;
+			children = (
+				599AA6B31E7685FC002EF269 /* DZHKLineEntity.h */,
+				599AA6B41E7685FC002EF269 /* DZHKLineEntity.m */,
+				599AA6B61E768607002EF269 /* DZHDrawingItemModel.h */,
+				599AA6B71E768607002EF269 /* DZHDrawingItemModel.m */,
+				599AA6B91E768611002EF269 /* DZHAxisItem.h */,
+				599AA6BA1E768611002EF269 /* DZHAxisItem.m */,
+				599AA6BC1E76861B002EF269 /* DZHCurveItem.h */,
+				599AA6BD1E76861B002EF269 /* DZHCurveItem.m */,
+			);
+			path = DrawingEntity;
+			sourceTree = "<group>";
+		};
+		599AA6701E76795B002EF269 /* DrawingProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				599AA6AB1E7684AB002EF269 /* DZHDrawing.h */,
+				599AA6AC1E7684C4002EF269 /* DZHDrawingContainer.h */,
+				599AA6AD1E768509002EF269 /* DZHDataTraveler.h */,
+				599AA6AF1E768552002EF269 /* DZHDrawingItems.h */,
+				599AA6B11E76856A002EF269 /* DZHDataProvider.h */,
+				599AA6B21E768574002EF269 /* DZHIndexCalculator.h */,
+				599AA7131E768ED7002EF269 /* DZHDrawingModels.h */,
+			);
+			path = DrawingProtocol;
+			sourceTree = "<group>";
+		};
+		599AA6711E76795B002EF269 /* TecIndexesCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				599AA6F21E768CCE002EF269 /* DZHBIASCalculator.h */,
+				599AA6F31E768CCE002EF269 /* DZHBIASCalculator.m */,
+				599AA6F51E768CD7002EF269 /* DZHBOLLCalculator.h */,
+				599AA6F61E768CD7002EF269 /* DZHBOLLCalculator.m */,
+				599AA6FB1E768CE9002EF269 /* DZHCCICalculator.h */,
+				599AA6FC1E768CE9002EF269 /* DZHCCICalculator.m */,
+				599AA7101E768D57002EF269 /* DZHWRCalculator.h */,
+				599AA7111E768D57002EF269 /* DZHWRCalculator.m */,
+				599AA6FE1E768CF1002EF269 /* DZHDMACalculator.h */,
+				599AA6FF1E768CF1002EF269 /* DZHDMACalculator.m */,
+				599AA7011E768CFA002EF269 /* DZHKDJCalculator.h */,
+				599AA7021E768CFA002EF269 /* DZHKDJCalculator.m */,
+				599AA7041E768D05002EF269 /* DZHMACalculator.h */,
+				599AA7051E768D05002EF269 /* DZHMACalculator.m */,
+				599AA7071E768D0F002EF269 /* DZHMACDCalculator.h */,
+				599AA7081E768D0F002EF269 /* DZHMACDCalculator.m */,
+				599AA70A1E768D44002EF269 /* DZHRSICalculator.h */,
+				599AA70B1E768D44002EF269 /* DZHRSICalculator.m */,
+				599AA70D1E768D4C002EF269 /* DZHVolumeMACalculator.h */,
+				599AA70E1E768D4C002EF269 /* DZHVolumeMACalculator.m */,
+				599AA6F81E768CDF002EF269 /* DZHCalculatorBase.h */,
+				599AA6F91E768CDF002EF269 /* DZHCalculatorBase.m */,
+			);
+			path = TecIndexesCalculator;
+			sourceTree = "<group>";
+		};
+		599AA67A1E767DD5002EF269 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				599AA67B1E7682BF002EF269 /* DZHColorDataProvider.h */,
+				599AA67C1E7682BF002EF269 /* DZHColorDataProvider.m */,
+				599AA67E1E7682CB002EF269 /* DZHDataProviderContext.h */,
+				599AA67F1E7682CB002EF269 /* DZHDataProviderContext.m */,
+				599AA6811E7682D4002EF269 /* DZHKLineTypeStrategy.h */,
+				599AA6821E7682D4002EF269 /* DZHKLineTypeStrategy.m */,
+				599AA6841E7682DD002EF269 /* DZHVolumeTypeStrategy.h */,
+				599AA6851E7682DD002EF269 /* DZHVolumeTypeStrategy.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		599AA6C41E768782002EF269 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				599AA6C51E76879A002EF269 /* DZHKLineDataSource.h */,
+				599AA6C61E76879A002EF269 /* DZHKLineDataSource.m */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		599AA64E1E767848002EF269 /* StockKLineDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 599AA6661E767848002EF269 /* Build configuration list for PBXNativeTarget "StockKLineDemo" */;
+			buildPhases = (
+				599AA64B1E767848002EF269 /* Sources */,
+				599AA64C1E767848002EF269 /* Frameworks */,
+				599AA64D1E767848002EF269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StockKLineDemo;
+			productName = StockKLineDemo;
+			productReference = 599AA64F1E767848002EF269 /* StockKLineDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		599AA6471E767848002EF269 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = 2345;
+				TargetAttributes = {
+					599AA64E1E767848002EF269 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 599AA64A1E767848002EF269 /* Build configuration list for PBXProject "StockKLineDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 599AA6461E767848002EF269;
+			productRefGroup = 599AA6501E767848002EF269 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				599AA64E1E767848002EF269 /* StockKLineDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		599AA64D1E767848002EF269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599AA6621E767848002EF269 /* LaunchScreen.storyboard in Resources */,
+				599AA65F1E767848002EF269 /* Assets.xcassets in Resources */,
+				599AA6C01E7686C6002EF269 /* klines.data in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		599AA64B1E767848002EF269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599AA6571E767848002EF269 /* AppDelegate.m in Sources */,
+				599AA6C71E76879A002EF269 /* DZHKLineDataSource.m in Sources */,
+				599AA67D1E7682BF002EF269 /* DZHColorDataProvider.m in Sources */,
+				599AA6F11E76897F002EF269 /* DZHEdgeTextDrawing.m in Sources */,
+				599AA6FD1E768CE9002EF269 /* DZHCCICalculator.m in Sources */,
+				599AA6BB1E768611002EF269 /* DZHAxisItem.m in Sources */,
+				599AA6F71E768CD7002EF269 /* DZHBOLLCalculator.m in Sources */,
+				599AA7121E768D57002EF269 /* DZHWRCalculator.m in Sources */,
+				599AA6E51E768955002EF269 /* DZHFillBarDrawing.m in Sources */,
+				599AA6BE1E76861B002EF269 /* DZHCurveItem.m in Sources */,
+				599AA6AA1E76845D002EF269 /* DZHWRDataProvider.m in Sources */,
+				599AA6891E768352002EF269 /* DZHKLineDateFormatter.m in Sources */,
+				599AA7061E768D05002EF269 /* DZHMACalculator.m in Sources */,
+				599AA6CD1E768803002EF269 /* DZHScrollContainer.m in Sources */,
+				599AA6B51E7685FC002EF269 /* DZHKLineEntity.m in Sources */,
+				599AA6741E7679B4002EF269 /* UIColor+RGB.m in Sources */,
+				599AA6D31E76888A002EF269 /* DZHDrawingBase.m in Sources */,
+				599AA6E21E76894D002EF269 /* DZHRectangleDrawing.m in Sources */,
+				599AA6D91E76889F002EF269 /* DZHAxisXDrawing.m in Sources */,
+				599AA6EE1E768973002EF269 /* DZHGradientDrawing.m in Sources */,
+				599AA7091E768D0F002EF269 /* DZHMACDCalculator.m in Sources */,
+				599AA6D61E768896002EF269 /* DZHAxisDrawingBase.m in Sources */,
+				599AA6EB1E768967002EF269 /* DZHOHLCDrawing.m in Sources */,
+				599AA6DC1E7688A8002EF269 /* DZHAxisYDrawing.m in Sources */,
+				599AA6B81E768607002EF269 /* DZHDrawingItemModel.m in Sources */,
+				599AA6921E7683C8002EF269 /* DZHBOLLDataProvider.m in Sources */,
+				599AA6801E7682CB002EF269 /* DZHDataProviderContext.m in Sources */,
+				599AA70F1E768D4C002EF269 /* DZHVolumeMACalculator.m in Sources */,
+				599AA70C1E768D44002EF269 /* DZHRSICalculator.m in Sources */,
+				599AA6981E76841D002EF269 /* DZHDMADataProvider.m in Sources */,
+				599AA7001E768CF1002EF269 /* DZHDMACalculator.m in Sources */,
+				599AA6E81E76895E002EF269 /* DZHCurveDrawing.m in Sources */,
+				599AA6A11E76843E002EF269 /* DZHMACDDataProvider.m in Sources */,
+				599AA6D01E768834002EF269 /* DZHKLineContainer.m in Sources */,
+				599AA6C31E7686F3002EF269 /* DZHKLineViewController.m in Sources */,
+				599AA7031E768CFA002EF269 /* DZHKDJCalculator.m in Sources */,
+				599AA6951E7683D4002EF269 /* DZHCCIDataProvider.m in Sources */,
+				599AA68F1E7683BF002EF269 /* DZHBIASDataProvider.m in Sources */,
+				599AA6A41E768449002EF269 /* DZHRSIDataProvider.m in Sources */,
+				599AA6F41E768CCE002EF269 /* DZHBIASCalculator.m in Sources */,
+				599AA6FA1E768CDF002EF269 /* DZHCalculatorBase.m in Sources */,
+				599AA6831E7682D4002EF269 /* DZHKLineTypeStrategy.m in Sources */,
+				599AA6861E7682DD002EF269 /* DZHVolumeTypeStrategy.m in Sources */,
+				599AA6541E767848002EF269 /* main.m in Sources */,
+				599AA68C1E7683B5002EF269 /* DZHDataProviderBase.m in Sources */,
+				599AA6791E767D91002EF269 /* DZHDrawingUtil.m in Sources */,
+				599AA69B1E768427002EF269 /* DZHKDJDataProvider.m in Sources */,
+				599AA6CA1E7687D7002EF269 /* DZHContainer.m in Sources */,
+				599AA6DF1E7688B2002EF269 /* DZHKLineDrawing.m in Sources */,
+				599AA6A71E768454002EF269 /* DZHVolumeDataProvider.m in Sources */,
+				599AA69E1E768432002EF269 /* DZHKLineDataProvider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		599AA6601E767848002EF269 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				599AA6611E767848002EF269 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		599AA6641E767848002EF269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		599AA6651E767848002EF269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		599AA6671E767848002EF269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = StockKLineDemo/StockKLineDemo.pch;
+				INFOPLIST_FILE = StockKLineDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Merlin.StockKLineDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		599AA6681E767848002EF269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = StockKLineDemo/StockKLineDemo.pch;
+				INFOPLIST_FILE = StockKLineDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Merlin.StockKLineDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		599AA64A1E767848002EF269 /* Build configuration list for PBXProject "StockKLineDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				599AA6641E767848002EF269 /* Debug */,
+				599AA6651E767848002EF269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		599AA6661E767848002EF269 /* Build configuration list for PBXNativeTarget "StockKLineDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				599AA6671E767848002EF269 /* Debug */,
+				599AA6681E767848002EF269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 599AA6471E767848002EF269 /* Project object */;
+}

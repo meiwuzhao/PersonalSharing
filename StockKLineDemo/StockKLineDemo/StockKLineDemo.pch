@@ -1,0 +1,19 @@
+//
+//  StockKLineDemo.pch
+//  StockKLineDemo
+//
+//  Created by Merlin on 2017/3/13.
+//  Copyright © 2017年 2345. All rights reserved.
+//
+
+#ifndef StockKLineDemo_pch
+#define StockKLineDemo_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "DZHDrawingDefine.h"
+
+#endif /* StockKLineDemo_pch */
